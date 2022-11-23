@@ -1,0 +1,21 @@
+.root {
+    margin: 10px auto 0;
+    box-sizing: border-box;
+    width: 600px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+
+    button {
+        cursor: pointer;
+        border: none;
+    }
+
+    input[type="text"] {
+        outline: none;
+    }
+
+    input[type="text"]:focus {
+        border-color: #3E9EF4 !important;
+    }
+}
