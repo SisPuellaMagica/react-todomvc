@@ -1,0 +1,27 @@
+.root {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    height: 40px;
+    padding: 0 10px;
+    border: 1px solid #ddd;
+
+    :global {
+        .left {
+            display: flex;
+            align-items: center;
+
+            input[type="checkbox"] {
+                margin-right: 10px;
+            }
+        }
+
+        .right .delBtn {
+            width: 130px;
+            height: 30px;
+            background: #E1251B;
+            color: #fff;
+        }
+    }
+}

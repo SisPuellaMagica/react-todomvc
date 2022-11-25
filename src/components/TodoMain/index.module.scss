@@ -1,0 +1,61 @@
+.root {
+    margin: 10px 0;
+
+    :global {
+        li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-sizing: border-box;
+            height: 40px;
+            padding: 0 10px;
+            border: 1px solid #ddd;
+            border-top: none;
+
+            &:first-of-type {
+                border-top: 1px solid #ddd;
+            }
+
+            &:hover {
+                background: #f2f2f2;
+            }
+
+            .left {
+                display: flex;
+                align-items: center;
+
+                input[type="checkbox"] {
+                    margin-right: 10px;
+                }
+
+                input[type="text"] {
+                    box-sizing: border-box;
+                    width: 383px;
+                    height: 36px;
+                    border: 1px solid #ddd;
+                }
+            }
+
+            .right {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 130px;
+
+                .editBtn {
+                    width: 60px;
+                    height: 30px;
+                    background: #3E9EF4;
+                    color: #fff;
+                }
+
+                .delBtn {
+                    width: 60px;
+                    height: 30px;
+                    background: #E1251B;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
